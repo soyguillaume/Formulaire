@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Dégradé de couleurs en arrière-plan */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère en dessous */
+}
+
+section h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3498db; /* Couleur du titre */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px 0;
+    padding: 12px;
+    outline: 0;
+    border: 1px solid #ccc; /* Bordure légèrement plus claire */
+    border-radius: 8px;
+}
+
+form input[type='submit'] {
+    background: #3498db;
+    border: 0;
+    color: #fff;
+    margin-top: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.Erreur {
+    color: red;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
